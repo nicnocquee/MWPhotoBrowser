@@ -45,6 +45,8 @@
 // Set page that photo browser starts on
 - (void)setInitialPageIndex:(NSUInteger)index;
 
+- (void)setControlsHidden:(BOOL)hidden animated:(BOOL)animated permanent:(BOOL)permanent;
+
 @end
 
 
